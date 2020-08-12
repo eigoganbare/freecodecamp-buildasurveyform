@@ -1,0 +1,52 @@
+
+h1{
+    text-align: center;
+    color:red
+}
+
+#description {
+    text-align: center;
+}
+body{
+    font-family:Meiryo;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.eigoganbare-survey {
+font-family: Meiryo;
+}
+
+select, textarea {
+    display: block;
+    width: 100%;
+}
+
+#name-label, #name {
+    display: block;
+    width: 100%
+}
+
+#email-label, #email {
+    display: block;
+    width: 100%
+}
+
+#number-label, #number {
+    display: block;
+    width: 30%
+}
+
+#submit {
+    display: block;
+    width: 100%
+}
+
+#comments{
+    height: 70px;
+}
+form{
+    background-color: rgb(255, 175, 175);
+    padding: 10px 20px 10px 20px;
+   
+}

@@ -1,0 +1,50 @@
+<html
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="survey.css">
+</head>
+<body>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <h1 id="title">Survey about Eigo Ganbare</h1>
+    <p id="description">Eigo Ganbare についてこのアンケートです。下で、答えるを書いてください。</p>
+            <form id="survey-form">
+                <label id="name-label">名前：</label>
+                <input type="text" name="name" id="name" required placeholder="名前">
+                <p>
+                <label id="email-label">電子マール：</label>
+                <input type="email" name="email" id="email" required placeholder="電子マール">
+                <p>
+                <label id="number-label">レベル：</label>
+                <input type="number" name="number" id="number" min="1" max="12" required placeholder="何年生を教えますか。">
+                <p>
+
+                <select id="dropdown" name="gender">
+                    <option value="male">男性</option>
+                    <option value="female">女性</option>
+                </select>
+                
+                <br>
+                
+                
+                <p class="eigoganbare-survey">なぜい日本に来ますか。</p>
+                <input type="checkbox" name="teach-english" value="teach-english">英語の先生になりたいですから。<p>
+                <input type="checkbox" name="like-manga" value="like-manga">マンガが大好きですから。<p>
+                <input type="checkbox" name="new-job" value="new-job">他の国で新しいの仕事を探していますから。<p>
+                <br>
+                
+                <p class="eigoganbare-survey">日本で英語の教育はどう思いますか。</p>
+                <input type="radio" name="survey" value="wow">すごいです。<p>
+                <input type="radio" name="survey" value="good">良いです。<p>
+                <input type="radio" name="survey" value="so-so">まあまあです。<p>
+                <input type="radio" name="survey" value="poor">下手です。<p>
+                <br>
+                
+                <textarea placeholder="Additional Comments" id="comments"></textarea>
+                <p>
+                  
+                <input type="submit" id="submit">
+                </form>
+</body>
+
+</html>
